@@ -68,7 +68,13 @@
 }
 
 .basic-card-1 {
-    background-color: #ff4c3f;
+    background: rgb(255, 169, 192);
+    background: linear-gradient(180deg, rgba(255, 169, 192, 1) 35%, rgba(230, 116, 255, 1) 100%);
+}
+
+.basic-card-1 .card-content,
+.basic-card-1 .card-link a {
+    color: #1a1a1a;
 }
 
 .basic-card-1 .card-link {
@@ -80,12 +86,13 @@
 
 
 .basic-card-2 {
-    background-color: #ff4c3f;
+    background: rgb(255, 250, 139);
+    background: linear-gradient(180deg, rgba(255, 250, 139, 1) 35%, rgba(255, 111, 215, 1) 100%);
 }
 
 .basic-card-2 .card-content,
 .basic-card-2 .card-link a {
-    color: #234567;
+    color: #1a1a1a;
 }
 
 .basic-card-2 .card-link {
@@ -97,12 +104,13 @@
 }
 
 .basic-card-3{
-    background-color: #ff4c3f;
+    background: rgb(255, 77, 97);
+        background: linear-gradient(180deg, rgba(255, 77, 97, 1) 35%, rgba(247, 255, 104, 1) 100%);
 }
 
 .basic-card-3 .card-content,
 .basic-card-3 .card-link a {
-    color: #234567;
+    color: #1a1a1a;
 }
 
 .basic-card-3 .card-link {
@@ -114,12 +122,13 @@
 }
 
 .basic-card-4 {
-    background-color: #ff4c3f;
+    background: rgb(79, 255, 89);
+    background: linear-gradient(0deg, rgba(79, 255, 89, 1) 0%, rgba(45, 109, 253, 1) 100%);
 }
 
 .basic-card-4 .card-content,
 .basic-card-4 .card-link a {
-    color: #234567;
+    color: #efeff0;
 }
 
 .basic-card-4 .card-link {
@@ -131,12 +140,13 @@
 }
 
 .basic-card-5 {
-    background-color: #ff4c3f;
+    background: rgb(116, 79, 255);
+    background: linear-gradient(180deg, rgba(116, 79, 255, 1) 0%, rgba(253, 45, 149, 1) 100%);
 }
 
 .basic-card-5 .card-content,
 .basic-card-5 .card-link a {
-    color: #234567;
+    color: #efeff0;
 }
 
 .basic-card-5 .card-link {
@@ -144,22 +154,23 @@
 }
 
 .basic-card-5 .card-link a:after {
-    background: #881b1b;
+    border-top: 1px solid #fff;
 }
 
 .basic-card-6 {
-    background-color: #ff4c3f;
+    background: rgb(139, 139, 255);
+    background: linear-gradient(180deg, rgba(139, 139, 255, 1) 35%, rgba(111, 231, 255, 1) 100%);
 }
 
 .basic-card-6 .card-content,
 .basic-card-6 .card-link a {
-    color: #f09bdd;
+    color: #efeff0;
 }
 
 .basic-card-6 .card-link {
-    border-top: 1px solid #82c1bb;
+    border-top: 1px solid #a9fab6;
 }
 
 .basic-card-6 .card-link a:after {
-    background: #881b1b;
+    border-top: 1px solid #881b1b;
 }
